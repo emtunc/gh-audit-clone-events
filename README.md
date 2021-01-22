@@ -12,6 +12,7 @@ Example output:
 
 ```
 Timestamp: 2021-01-22 01:13:10
+Action: git.clone
 Repo: my-org/repo-name
 Actor: emtunc
 Transport protocol: ssh
