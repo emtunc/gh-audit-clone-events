@@ -8,7 +8,7 @@ GITHUB_ORG = os.environ.get("GITHUB_ORG")
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
 
 headers = {'Accept': 'application/vnd.github.v3+json',
-           f'Authorization': 'token ' + GITHUB_TOKEN,
+           'Authorization': 'token ' + GITHUB_TOKEN,
            'User-Agent': 'github.com/emtunc/gh-audit-clone-events'}
 
 
